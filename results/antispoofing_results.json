@@ -1,0 +1,7 @@
+{
+  "eer_percent": 0.0,
+  "eer_target": 10.0,
+  "passes": true,
+  "n_real": 20,
+  "n_spoof": 20
+}

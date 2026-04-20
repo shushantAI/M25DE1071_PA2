@@ -1,0 +1,132 @@
+stochastic
+cepstrum
+mel-frequency
+cepstral
+spectrogram
+formant
+fundamental frequency
+pitch
+prosody
+phoneme
+grapheme
+allophone
+morpheme
+fricative
+plosive
+voiced
+unvoiced
+articulation
+acoustic
+waveform
+fourier transform
+discrete cosine transform
+linear predictive coding
+autoregressive
+hidden markov model
+gaussian mixture model
+deep neural network
+recurrent neural network
+long short-term memory
+attention mechanism
+transformer
+wav2vec
+whisper
+connectionist temporal classification
+beam search
+language model
+n-gram
+perplexity
+word error rate
+mel cepstral distortion
+speaker verification
+speaker diarization
+voice activity detection
+code-switching
+multilingual
+cross-lingual
+zero-shot
+transfer learning
+fine-tuning
+speaker embedding
+d-vector
+x-vector
+i-vector
+MFCC
+LFCC
+CQCC
+inverse discrete cosine transform
+vocoder
+neural vocoder
+hifi-gan
+wavenet
+vits
+spectral subtraction
+wiener filter
+signal-to-noise ratio
+dynamic time warping
+equal error rate
+false acceptance rate
+false rejection rate
+adversarial perturbation
+FGSM
+fast gradient sign method
+anti-spoofing
+countermeasure
+bona fide
+spoofed
+reverberation
+dereverberation
+noise reduction
+speech enhancement
+phonetic transcription
+international phonetic alphabet
+grapheme to phoneme
+back-off smoothing
+kneser-ney
+laplace smoothing
+energy contour
+pitch contour
+intonation
+utterance
+segment
+frame
+window
+hamming window
+hann window
+overlap-add
+short time fourier transform
+filterbank
+log filterbank
+subband
+critical band
+bark scale
+ERB scale
+normalization
+mean subtraction
+variance normalization
+data augmentation
+SpecAugment
+speed perturbation
+volume perturbation
+end-to-end
+encoder decoder
+sequence to sequence
+self-supervised
+pre-trained
+fine-tuned
+convergence
+loss function
+cross entropy
+binary cross entropy
+sigmoid
+softmax
+ReLU
+batch normalization
+dropout
+overfitting
+regularization
+gradient descent
+Adam optimizer
+learning rate
+epoch
+batch

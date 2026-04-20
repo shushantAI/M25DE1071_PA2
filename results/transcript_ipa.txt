@@ -1,0 +1,72 @@
+[0.00s - 5.12s] soʊ æb həm lɔg dekh ˈreɪhi | ɦɛ̃ː ˈhɪdən markov ˈmɑdəl kɑ ˌɛstəˈmeɪʃən ˈprɑbləm
+[5.12s - 10.34s] ðə bɔm wɛlʧ ˈælgərˌɪðəm | ɪz | ɛˈsɛnʃəli | ən ˌɛkspɛkˈteɪʃən ˌmæksɪmɪˈzeɪʃən | əˈproʊʧ
+[10.34s - 15.67s] ɪsmẽː həm lɔg ˈfɔrwərd ˈbækwərd ˌprɑbəˈbɪləˌtiz kəmˈpjut karte | ɦɛ̃ː
+[15.67s - 20.89s] ənd ðiz | ər juzd tɪ ˈɛstəˌmeɪt ðə trænˈzɪʃən | ənd | ɪˈmɪʃən pərˈæmətərz
+[20.89s - 26.11s] t̪oː pehle ˈfɔrwərd ˈvɛriəbəl ˈælfə dɪˈfaɪn karte | ɦɛ̃ː | ʤoʊ ˌprɑbəˈbɪləˌti | ɦɛː
+[26.11s - 31.45s] əv biɪŋ | ɪn steɪt aɪ æt taɪm ti | ənd | əbˈzərvɪŋ ðə ˈpɑrʃəl ˈsikwəns | əp tɪ ti
+[31.45s - 36.78s] ˌmæθəˈmætɪkəli ˈælfə | əv aɪ ti ˈikwəlz ˌprɑbəˈbɪləˌti | əv oʊ oʊ tɪl ˈoʊˈti | ənd qt ˈikwəlz si
+[36.78s - 42.01s] jɛ recursively kəmˈpjut hota | ɦɛː ˈstɑrtɪŋ frəm ðə ˌɪˈnɪʃəl steɪt ˌdɪstrəˈbjuʃən
+[42.01s - 47.23s] ˈsɪmələrli ˈbækwərd ˈvɛriəbəl ˈbeɪtə aɪ ti dɪˈfaɪn hota | ɦɛː | ɛz ˌprɑbəˈbɪləˌti | əv
+[47.23s - 52.56s] ðə rɪˈmeɪnɪŋ ˌɑbzərˈveɪʃən ˈsikwəns frəm ti pləs wən ˈgɪvɪn steɪt aɪ æt taɪm ti
+[52.56s - 57.89s] t̪oː | ɪn dono koʊ milake həm lɔg ˈgæmə | ɔːr | ʃi kəmˈpjut karte | ɦɛ̃ː
+[57.89s - 63.12s] ˈgæmə aɪ ti | ɪz ðə ˌpɔˈstɪrjər ˌprɑbəˈbɪləˌti | əv biɪŋ | ɪn steɪt aɪ æt taɪm ti
+[63.12s - 68.45s] ˈgɪvɪn ðə kəmˈplit ˌɑbzərˈveɪʃən ˈsikwəns | ənd ˈkɑrənt ˈmɑdəl pərˈæmətərz
+[68.45s - 73.78s] ɔːr | ʃi aɪ | ʤeɪ ti | ɪz ðə | ʤɔɪnt ˌprɑbəˈbɪləˌti | əv biɪŋ | ɪn steɪt aɪ æt ti
+[73.78s - 79.01s] ənd trænˈzɪʃənɪŋ tɪ steɪt | ʤeɪ æt taɪm ti pləs wən
+[79.01s - 84.23s] jɛ kˈwɑntətiz juz hoti | ɦɛ̃ː pərˈæmətər reestimation min
+[84.23s - 89.56s] ðə reestimation ˈfɔrmjələ fər trænˈzɪʃən ˌprɑbəˈbɪləˌti aij | ɪz
+[89.56s - 94.89s] səm | əv | ʃi aɪ | ʤeɪ ti ˈoʊvər | ɔl ti dɪˈvaɪdɪd baɪ səm | əv ˈgæmə aɪ ti ˈoʊvər | ɔl ti
+[94.89s - 100.12s] ɪslɪjeː ˌɛkspɛkˈteɪʃən stɛp min həm ˈfɔrwərd ˈbækwərd rən karte | ɦɛ̃ː
+[100.12s - 105.45s] ənd ˌmæksɪmɪˈzeɪʃən stɛp ˈəpˌdeɪts ðə ˈmɑdəl pərˈæmətərz ˈjuzɪŋ ðiz ˌɛkspɛkˈteɪʃənz
+[105.45s - 110.78s] æb | əˈkustɪk ˈmɑdəl ki baat karte | ɦɛ̃ː | ʤoʊ spiʧ ˌrɛkɪgˈnɪʃən kɑ kɔr | ɦɛː
+[110.78s - 116.01s] ˈgaʊsiən ˈmɪksʧər ˈmɑdəl iʧ həm steɪt seɪ | əˈsoʊʃiˌeɪtəd hota | ɦɛː
+[116.01s - 121.34s] ʤoʊ ˌɑbzərˈveɪʃən ˈvɛktərz kɑ ˈlaɪkliˌhʊd ˈɛstəˌmeɪt karta | ɦɛː
+[121.34s - 126.67s] ˈtɪpɪkəli wi juz mɛl ˈfrikwənsi cepstral ˌkoʊəˈfɪʃənts | ɛz | əˈkustɪk ˈfiʧərz
+[126.67s - 131.89s] mfcc ˈfiʧərz spiʧ ˈsɪgnəl kɛ ˈspɛktrəl ˈɛnvəˌloʊp koʊ ˈkæpʧər karte | ɦɛ̃ː
+[131.89s - 137.12s] ðə mɛl filterbank | əˈplaɪz | ə perceptually ˈmoʊtəˌveɪtəd ˈfrikwənsi skeɪl
+[137.12s - 142.45s] pʰɪr dɪˈskrit cosine ˈtrænsfɔrm | əˈplaɪ hota | ɦɛː fər decorrelation
+[142.45s - 147.78s] rɪˈzəltɪŋ | ɪn | ə ˈkɑmpækt loʊ dɪˈmɛnʃənəl ˌrɛprəzɛnˈteɪʃən | əv ðə spiʧ freɪm
+[147.78s - 153.01s] t̪oː ˈfiʧər ˈvɛktər ˈtɪpɪkəli 39 dɪˈmɛnʃənəl hota | ɦɛː mfcc wɪθ ˈdɛltəz
+[153.01s - 158.34s] 13 ˈstætɪk ˌkoʊəˈfɪʃənts pləs 13 ˈdɛltə pləs 13 ˈdɛltə ˈdɛltə
+[158.34s - 163.67s] jɛ ˈtɛmpərəl daɪˈnæmɪks ˈkæpʧər karte | ɦɛ̃ː vɔɪs ˈɔnˌsɛt | ɔːr ˈfɔrmənt trænˈzɪʃənz
+[163.67s - 169.01s] æb ˈkɑntɛkst dɪˈpɛndənt | əˈkustɪk ˈmɑdəlz ki baat karte | ɦɛ̃ː
+[169.01s - 174.34s] triphone ˈmɑdəlz ˈkæpʧər ðə coarticulatory ˈifɛkts bɪtˈwin | əˈʤeɪsənt ˈfoʊnimz
+[174.34s - 179.67s] jisme lɛft ˈkɑntɛkst | ɔːr raɪt ˈkɑntɛkst boʊθ kənˈsɪdər kiye jaate | ɦɛ̃ː
+[179.67s - 184.89s] ðɪs sɪgˈnɪfɪkəntli ˌɪmˈpruvz ˌrɛkɪgˈnɪʃən ˈækjərəsi ˈoʊvər monophone ˈmɑdəlz
+[184.89s - 190.12s] leːkɪn triphone sɛt bahut lɑrʤ hoʊ jaata | ɦɛː | əraʊnd 40 ˈfoʊnimz tɪ ðə paʊər 3
+[190.12s - 195.45s] ɪslɪjeː dɪˈsɪʒən tri ˈkləstərɪŋ juz karte | ɦɛ̃ː tɪ taɪ ˈsɪmələr triphones
+[195.45s - 200.78s] t̪oː æb dip ˈlərnɪŋ beɪst | əˈkustɪk ˈmɑdəlz ki taraf chalte | ɦɛ̃ː
+[200.78s - 206.01s] dip ˈnʊrəl ˈnɛtˌwərk ˈhɪdən markov ˈmɑdəl ˈhaɪbrɪd ˈsɪstəmz bɪˈkeɪm ˈpɑpjələr
+[206.01s - 211.34s] wɛr ðə ˈnʊrəl ˈnɛtˌwərk prɪˈdɪkts həm steɪt ˌpɔˈstɪrjərz frəm | əˈkustɪk ˈfiʧərz
+[211.34s - 216.67s] jɛ kaam karta | ɦɛː bɪˈkəz ˈnʊrəl ˈnɛtˌwərks kən lərn ˈkɑmplɛks nɑnˈlɪˌniər mappings
+[216.67s - 222.01s] ənd kən ˈnæʧərəli ˌɪnˈkɔrpərˌeɪt lɑrʤ ˈtɛmpərəl ˈkɑntɛkst θru waɪd ˈɪnˌpʊt ˈwɪndoʊz
+[222.01s - 227.34s] pʰɪr convolutional ˈnʊrəl ˈnɛtˌwərks aaye fər | əˈkustɪk ˈmɑdəlɪŋ
+[227.34s - 232.67s] ʤoʊ ˈfrikwənsi | ʃɪft ˌɪnˈvɛriəns prəˈvaɪd karte | ɦɛ̃ː | ɪn ðə mɛl filterbank doʊˈmeɪn
+[232.67s - 237.89s] rɪˈkərənt ˈnʊrəl ˈnɛtˌwərks | əˈspɛʃəli LSTMs | ɔːr GRUs bʱiː juz hoʊt | ɦɛ̃ː
+[237.89s - 243.12s] bɪˈkəz spiʧ | ɪz ˌɪnˈhɛrəntli səkˈwɛnʃəl | ənd rikˈwaɪərz ˈmɑdəlɪŋ lɔŋ tərm dɪˈpɛndənsiz
+[243.12s - 248.45s] t̪oː LSTM fərˈgɛt geɪt ˌdɪˈsaɪd karta | ɦɛː ki kitna pæst ˌɪnˌfɔrˈmeɪʃən rɪˈteɪn kərnɑː | ɦɛː
+[248.45s - 253.78s] ˈɪnˌpʊt geɪt ˌdɪˈsaɪdz wət nu ˌɪnˌfɔrˈmeɪʃən tɪ stɔr | ɪn ðə sɛl steɪt
+[253.78s - 259.01s] ˈaʊtˌpʊt geɪt kənˈtroʊlz wət ˌɪnˌfɔrˈmeɪʃən tɪ | ɪkˈspoʊz | ɛz ðə ˈhɪdən steɪt
+[259.01s - 264.34s] jɛ ˈgeɪtɪŋ ˈmɛkəˌnɪzəm ˈgreɪdiənt ˈvænɪʃɪŋ ˈprɑbləm koʊ sɑlv karta | ɦɛː
+[264.34s - 269.67s] ʤoʊ trəˈdɪʃənəl rɪˈkərənt ˈnɛtˌwərks min hoti θi dip ˈsikwənsɪz kɛ liye
+[269.67s - 275.01s] æb | ɛnd tɪ | ɛnd spiʧ ˌrɛkɪgˈnɪʃən ˈmɑdəlz ki baat karte | ɦɛ̃ː
+[275.01s - 280.34s] connectionist ˈtɛmpərəl ˌklæsəfəˈkeɪʃən jɑ CTC lɔs dɪˈrɛkli mæps | əˈkustɪk ˈɪnˌpʊt
+[280.34s - 285.67s] tɪ ˈkɛrɪktər | ər wərd ˈlɛvəl ˈaʊtˌpʊt wɪˈθaʊt | ɪkˈsplɪsət | əˈlaɪnmənt
+[285.67s - 291.01s] CTC blæŋk ˈsɪmbəl ˌɪntrəˈdus karta | ɦɛː tɪ ˈhændəl rɪˈpitɪd ˈleɪbəlz | ənd ˈsaɪləns
+[291.01s - 296.34s] marginalising ˈoʊvər | ɔl ˈpɑsəbəl | əˈlaɪnmənts ˈdʊrɪŋ ˈtreɪnɪŋ
+[296.34s - 301.67s] ɔːr | əˈtɛnʃən beɪst encoder dɪˈkoʊdər ˈmɑdəlz bʱiː bahut ˈifɛktɪv | ɦɛ̃ː
+[301.67s - 307.01s] ʤoʊ ˈsikwəns tɪ ˈsikwəns ˈlərnɪŋ ˈfreɪmˌwərk juz karte | ɦɛ̃ː
+[307.01s - 312.34s] t̪oː ˈwɪspər ˈmɑdəl ˈiˈkeɪ ˈpaʊərfəl ˌməltiˈlɪŋwəl ASR ˈsɪstəm | ɦɛː
+[312.34s - 317.67s] wɪʧ wɑz treɪnd | ɔn 680000 aʊərz | əv ˈwikli ˈsupərˌvaɪzd ˈɑdiˌoʊ ˈdætə
+[317.67s - 323.01s] ɪskɑː ˈɑrkəˌtɛkʧər trænsˈfɔrmər beɪst | ɦɛː wɪθ encoder | ənd dɪˈkoʊdər
+[323.01s - 328.34s] jɛ ˈməltəpəl ˈlæŋgwɪʤɪz ˌsaɪməlˈteɪniəsli ˈhændəl kar sakta | ɦɛː ˌɪnˈkludɪŋ Hinglish
+[328.34s - 333.67s] wavvec 2.0 sɛlf ˈsupərˌvaɪzd pretraining juz karta | ɦɛː | ɔn unlabelled ˈɑdiˌoʊ
+[333.67s - 339.01s] contrastive lɔs kɛ θru ˈminɪŋfəl spiʧ ˌrɛprəzənˈteɪʃənz seekhta | ɦɛː
+[339.01s - 344.34s] ɔːr pʰɪr faɪn tund hota | ɦɛː | ɔn smɔl | əˈmaʊnts | əv ˈleɪbəld ˈdætə
+[344.34s - 349.67s] t̪oː aaj kɛ liye itna | ɪˈnəf | ɦɛː nɛkst klæs min ˈspikər ˌrɛkɪgˈnɪʃən dekhenge
+[349.67s - 355.01s] ˈhoʊmˌwərk | əˈsaɪn kar raha hun ˈɪmpləmənt viterbi dɪˈkoʊdɪŋ fər | ə ˈsɪmpəl həm
+[355.01s - 360.34s] səbˈmɪʃən ˈdɛˌdlaɪn | ɪz | ɛnd | əv ðɪs wik ˈɛni kˈwɛsʧənz pliz æsk | ɔn ðə ˈfɔrəm
+[360.34s - 365.67s] tʰiːk | ɦɛː klæs dɪsˈmɪst dhanyavad sabko
+[365.67s - 370.89s] wən mɔr θɪŋ pliz rɛd ðə specaugment ˈpeɪpər ˌbiˈfɔr nɛkst klæs
+[370.89s - 376.12s] ɪt ˈdɛmənˌstreɪts ˈsɪmpəl bət ˈvɛri ˈifɛktɪv ˈdætə ˌɑgmɛnˈteɪʃən fər spiʧ
+[376.12s - 381.34s] taɪm | ənd ˈfrikwənsi ˈmæskɪŋ sɪgˈnɪfɪkəntli ˌɪmˈpruvz ˈmɑdəl roʊˈbəstnəs

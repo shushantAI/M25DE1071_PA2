@@ -1,0 +1,7 @@
+{
+  "mcd_warped": 6.74,
+  "mcd_flat": 9.53,
+  "mcd_target": 8.0,
+  "warped_passes": true,
+  "flat_passes": false
+}

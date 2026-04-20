@@ -1,0 +1,72 @@
+[0.00s - 5.12s] so ab hum log dekh rahe hain hidden markov नमूना ka estimation problem
+[5.12s - 10.34s] the baum welch तरीका is essentially an expectation maximization approach
+[10.34s - 15.67s] isme hum log forward backward probabilities compute karte hain
+[15.67s - 20.89s] and these are used to estimate the transition and emission parameters
+[20.89s - 26.11s] toh pehle forward variable alpha define karte hain, jo probability hai
+[26.11s - 31.45s] of being in state i at time t and observing the partial क्रम up to t
+[31.45s - 36.78s] mathematically, alpha of i t equals probability of o1 o2 till ot and qt equals si
+[36.78s - 42.01s] yeh recursively compute hota hai, starting from the initial state distribution
+[42.01s - 47.23s] similarly backward variable beta i t define hota hai as probability of
+[47.23s - 52.56s] the remaining observation क्रम from t plus one given state i at time t
+[52.56s - 57.89s] toh in dono ko milake hum log gamma aur xi compute karte hain
+[57.89s - 63.12s] gamma i t is the posterior probability of being in state i at time t
+[63.12s - 68.45s] given the complete observation क्रम and current नमूना parameters
+[68.45s - 73.78s] aur xi i j t is the joint probability of being in state i at t
+[73.78s - 79.01s] and transitioning to state j at time t plus one
+[79.01s - 84.23s] yeh quantities use hoti hain parameter re-estimation mein
+[84.23s - 89.56s] the re-estimation formula for transition probability aij is
+[89.56s - 94.89s] sum of xi i j t over all t divided by sum of gamma i t over all t
+[94.89s - 100.12s] isliye expectation step mein hum forward backward run karte hain
+[100.12s - 105.45s] and maximization step updates the नमूना parameters using these expectations
+[105.45s - 110.78s] ab acoustic नमूना ki baat karte hain, jo बोलि पहचान ka core hai
+[110.78s - 116.01s] gaussian mixture नमूना each HMM state se associated hota hai
+[116.01s - 121.34s] jo observation vectors ka likelihood estimate karta hai
+[121.34s - 126.67s] typically we use mel बारंबारता cepstral coefficients as acoustic features
+[126.67s - 131.89s] ध्वनि लक्षण features बोलि इशारा ke spectral envelope ko capture karte hain
+[131.89s - 137.12s] the mel filterbank applies a perceptually motivated बारंबारता scale
+[137.12s - 142.45s] phir discrete cosine transform apply hota hai for decorrelation
+[142.45s - 147.78s] resulting in a compact low dimensional representation of the बोलि चित्र-खंड
+[147.78s - 153.01s] toh खसियत दिशा-राशि typically 39 dimensional hota hai ध्वनि लक्षण with deltas
+[153.01s - 158.34s] 13 static coefficients plus 13 delta plus 13 delta delta
+[158.34s - 163.67s] yeh temporal dynamics capture karte hain बोलि onset aur formant transitions
+[163.67s - 169.01s] ab context dependent acoustic models ki baat karte hain
+[169.01s - 174.34s] triphone models capture the co-articulatory effects between adjacent phonemes
+[174.34s - 179.67s] jisme left context aur right context both consider kiye jaate hain
+[179.67s - 184.89s] this significantly improves पहचान सहिआई over monophone models
+[184.89s - 190.12s] lekin triphone set bahut large ho jaata hai, around 40 phonemes to the power 3
+[190.12s - 195.45s] isliye decision tree clustering use karte hain to tie similar triphones
+[195.45s - 200.78s] toh ab deep learning based acoustic models ki taraf chalte hain
+[200.78s - 206.01s] deep neural network hidden markov नमूना hybrid systems became popular
+[206.01s - 211.34s] where the neural network predicts HMM state posteriors from acoustic features
+[211.34s - 216.67s] yeh kaam karta hai because neural networks can learn complex non-linear mappings
+[216.67s - 222.01s] and can naturally incorporate large temporal context through wide अंदर के चीज़ windows
+[222.01s - 227.34s] phir convolutional neural networks aaye for acoustic modeling
+[227.34s - 232.67s] jo बारंबारता खिसकाव invariance provide karte hain in the mel filterbank domain
+[232.67s - 237.89s] बार-बार neural networks especially LSTMs aur GRUs bhi use hote hain
+[237.89s - 243.12s] because बोलि is inherently sequential and requires modeling long term dependencies
+[243.12s - 248.45s] toh लंबी याददाश्त forget gate decide karta hai ki kitna past information retain karna hai
+[248.45s - 253.78s] अंदर के चीज़ gate decides what new information to store in the cell state
+[253.78s - 259.01s] बाहर के चीज़ gate controls what information to expose as the hidden state
+[259.01s - 264.34s] yeh gating mechanism ढलान vanishing problem ko solve karta hai
+[264.34s - 269.67s] jo traditional बार-बार networks mein hoti thi deep sequences ke liye
+[269.67s - 275.01s] ab end to end बोलि पहचान models ki baat karte hain
+[275.01s - 280.34s] connectionist temporal बाँट ya क्रम त्रुटि गणना नुकसान directly maps acoustic अंदर के चीज़
+[280.34s - 285.67s] to character or शब्द level बाहर के चीज़ without explicit alignment
+[285.67s - 291.01s] क्रम त्रुटि गणना blank symbol introduce karta hai to handle repeated labels and silence
+[291.01s - 296.34s] marginalising over all possible alignments during सिखाई
+[296.34s - 301.67s] aur धियान based कूटकर्ता अर्थकर्ता models bhi bahut effective hain
+[301.67s - 307.01s] jo क्रम to क्रम learning तरीका use karte hain
+[307.01s - 312.34s] toh Whisper नमूना ek powerful अनेक भाषा वाला ASR system hai
+[312.34s - 317.67s] which was trained on 680000 hours of weakly supervised audio जानकारी
+[317.67s - 323.01s] iska architecture बदलने वाला based hai with कूटकर्ता and अर्थकर्ता
+[323.01s - 328.34s] yeh multiple languages simultaneously handle kar sakta hai including हिंदी-अंग्रेज़ी मिश्रण
+[328.34s - 333.67s] wav2vec 2.0 self supervised pre-training use karta hai on unlabelled audio
+[333.67s - 339.01s] contrastive नुकसान ke through meaningful बोलि representations seekhta hai
+[339.01s - 344.34s] aur phir fine tuned hota hai on small amounts of labelled जानकारी
+[344.34s - 349.67s] toh aaj ke liye itna enough hai, next class mein बोलनिहार पहचान dekhenge
+[349.67s - 355.01s] homework assign kar raha hoon, implement viterbi decoding for a simple HMM
+[355.01s - 360.34s] submission deadline is end of this week, any questions please ask on the forum
+[360.34s - 365.67s] theek hai class dismissed, dhanyavad sabko
+[365.67s - 370.89s] one more thing please read the specaugment paper before next class
+[370.89s - 376.12s] it demonstrates simple but very effective जानकारी बढ़ाव for बोलि
+[376.12s - 381.34s] time and बारंबारता ढँकाव significantly improves नमूना robustness

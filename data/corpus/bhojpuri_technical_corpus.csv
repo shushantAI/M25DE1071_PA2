@@ -1,0 +1,247 @@
+english,hindi,bhojpuri
+speech,भाषण,बोलि
+sound,ध्वनि,आवाज़
+frequency,आवृत्ति,बारंबारता
+signal,संकेत,इशारा
+noise,शोर,कोलाहल
+filter,फिल्टर,छानना
+wave,तरंग,लहर
+amplitude,आयाम,विस्तार
+pitch,पिच,स्वर
+voice,आवाज़,बोलि
+language,भाषा,बोली
+model,मॉडल,नमूना
+training,प्रशिक्षण,सिखाई
+testing,परीक्षण,जाँच
+feature,विशेषता,खसियत
+classification,वर्गीकरण,बाँट
+recognition,पहचान,पहचान
+deep learning,गहन अधिगम,गहिर सीखल
+neural network,तंत्रिका नेटवर्क,नसन के जाल
+algorithm,एल्गोरिदम,तरीका
+data,डेटा,जानकारी
+input,इनपुट,अंदर के चीज़
+output,आउटपुट,बाहर के चीज़
+accuracy,सटीकता,सहिआई
+error,त्रुटि,गलती
+loss,हानि,नुकसान
+gradient,ग्रेडिएंट,ढलान
+optimizer,ऑप्टिमाइज़र,सुधारक
+epoch,एपॉक,दौर
+batch,बैच,समूह
+layer,परत,तह
+weight,भार,वजन
+bias,पूर्वाग्रह,झुकाव
+activation,सक्रियण,जागरण
+softmax,सॉफ्टमैक्स,मुलायम अधिकतम
+sigmoid,सिग्मॉइड,एस-आकार
+ReLU,रेलू,सक्रिय रेखीय
+dropout,ड्रॉपआउट,हटाव
+normalization,सामान्यीकरण,सामान्य करल
+mel filterbank,मेल फ़िल्टर बैंक,मेल छनना
+spectrogram,स्पेक्ट्रोग्राम,आवृत्ति चित्र
+cepstrum,सेप्स्ट्रम,विशेष परिवर्तन
+MFCC,एमएफसीसी,ध्वनि लक्षण
+phoneme,फोनीम,ध्वनि इकाई
+grapheme,ग्राफीम,लिखाई इकाई
+transcription,लिप्यंतरण,लिखाई
+word,शब्द,शब्द
+sentence,वाक्य,बात
+token,टोकन,टुकड़ा
+vocabulary,शब्दकोश,शब्द-भंडार
+corpus,कॉर्पस,लिखाई का जखीरा
+embedding,एम्बेडिंग,जड़ान
+dimension,आयाम,नाप
+vector,वेक्टर,दिशा-राशि
+matrix,मैट्रिक्स,तालिका
+tensor,टेंसर,बहु-आयामी राशि
+attention,ध्यान,धियान
+transformer,ट्रांसफार्मर,बदलने वाला
+encoder,एनकोडर,कूटकर्ता
+decoder,डिकोडर,अर्थकर्ता
+sequence,अनुक्रम,क्रम
+beam search,बीम सर्च,किरण खोज
+language model,भाषा मॉडल,बोली नमूना
+n-gram,एन-ग्राम,शब्द-समूह
+perplexity,विस्मय,अचरज माप
+word error rate,शब्द त्रुटि दर,शब्द गलती दर
+speaker,वक्ता,बोलनिहार
+diarization,डायराइज़ेशन,वक्ता पहचान
+verification,सत्यापन,जाँच
+identification,पहचान,पहचान
+enrollment,नामांकन,दर्ज करल
+x-vector,एक्स-वेक्टर,वक्ता-संकेत
+d-vector,डी-वेक्टर,गहन वक्ता-संकेत
+spoofing,धोखाधड़ी,छल
+bona fide,असली,सच्चा
+synthetic,कृत्रिम,बनावटी
+cloning,क्लोनिंग,नकल
+prosody,प्रोसोडी,बोलने का ढंग
+intonation,स्वरावरोह,सुर उतार-चढ़ाव
+fundamental frequency,मूल आवृत्ति,मूल बारंबारता
+energy,ऊर्जा,ताकत
+duration,अवधि,समय
+pause,विराम,रुकाव
+stress,बल,जोर
+rhythm,लय,ताल
+articulation,उच्चारण,बोलाई
+voicing,स्वरीकरण,सुर देना
+aspiration,महाप्राण,साँस के साथ
+retroflex,मूर्धन्य,मुड़ल जीभ
+fricative,संघर्षी,रगड़ वाला
+plosive,स्पर्शी,धमाके वाला
+nasal,अनुनासिक,नाक से
+lateral,पार्श्विक,किनारे से
+approximant,अर्धस्वर,आधा स्वर
+vowel,स्वर,स्वर
+consonant,व्यंजन,व्यंजन
+monophthong,एकल स्वर,एक स्वर
+diphthong,द्विस्वर,दो स्वर
+syllable,अक्षर,अक्षर
+morpheme,रूपिम,अर्थ की इकाई
+syntax,वाक्यविन्यास,वाक्य बनाव
+semantics,अर्थविज्ञान,मतलब के पढ़ाई
+pragmatics,व्यावहारिकता,व्यवहार के बात
+zero-shot,ज़ीरो-शॉट,बिना उदाहरण
+transfer learning,स्थानांतरण अधिगम,सीखल के बदलाव
+fine-tuning,फाइन-ट्यूनिंग,बारीक सुधार
+pre-trained,पूर्व-प्रशिक्षित,पहिले से सीखल
+multilingual,बहुभाषी,अनेक भाषा वाला
+code-switching,कोड-स्विचिंग,भाषा बदलाव
+Hinglish,हिंगलिश,हिंदी-अंग्रेज़ी मिश्रण
+low-resource,कम-संसाधन,कम साधन वाला
+IPA,अंतर्राष्ट्रीय ध्वन्यात्मक वर्णमाला,अंतरराष्ट्रीय ध्वनि वर्णमाला
+phonetics,ध्वनिविज्ञान,ध्वनि विज्ञान
+phonology,स्वरविज्ञान,स्वर विज्ञान
+acoustic model,ध्वनिक मॉडल,आवाज़ नमूना
+language model,भाषा मॉडल,बोली नमूना
+end-to-end,एंड-टू-एंड,शुरू से अंत
+CTC,सीटीसी,क्रम त्रुटि गणना
+attention mechanism,ध्यान तंत्र,धियान तरीका
+self-attention,स्व-ध्यान,खुद के धियान
+cross-attention,क्रॉस-ध्यान,आपस धियान
+positional encoding,स्थितीय एन्कोडिंग,जगह के कूट
+feed-forward,फीड-फॉरवर्ड,आगे बढ़ाव
+residual connection,अवशिष्ट संयोजन,बचाव जोड़
+layer normalization,परत सामान्यीकरण,तह सामान्य करल
+multi-head attention,बहु-शीर्ष ध्यान,अनेक धियान
+hidden state,छिपी अवस्था,लुकल हालत
+recurrent,पुनरावर्ती,बार-बार
+LSTM,एलएसटीएम,लंबी याददाश्त
+GRU,जीआरयू,गेटेड दोहराव
+bidirectional,द्विदिशात्मक,दोनों दिशा
+convolution,सर्वदिश,मिलाव
+pooling,पूलिंग,जोड़ाव
+sampling,नमूनाकरण,नमूना लेनाई
+resampling,पुनः नमूनाकरण,फिर से नमूना
+quantization,परिमाणीकरण,माप करल
+compression,संपीड़न,दबाव
+reconstruction,पुनर्निर्माण,फिर बनाव
+generation,उत्पादन,बनाव
+synthesis,संश्लेषण,मिलाकर बनाव
+vocoder,वोकोडर,आवाज़ बनाने वाला
+mel-spectrogram,मेल-स्पेक्ट्रोग्राम,मेल चित्र
+waveform,तरंगरूप,लहर का रूप
+sampling rate,नमूना दर,नमूना दर
+Fourier transform,फूरियर रूपांतरण,फूरियर बदलाव
+inverse Fourier,व्युत्क्रम फूरियर,उल्टा फूरियर
+window function,विंडो फ़ंक्शन,खिड़की काम
+hamming window,हैमिंग विंडो,हैमिंग खिड़की
+hann window,हैन विंडो,हैन खिड़की
+overlap,ओवरलैप,आगा-पीछा
+frame,फ्रेम,चित्र-खंड
+shift,शिफ्ट,खिसकाव
+padding,पैडिंग,भराव
+masking,मास्किंग,ढँकाव
+augmentation,संवर्धन,बढ़ाव
+speed perturbation,गति विक्षोभ,चाल बदलाव
+volume perturbation,मात्रा विक्षोभ,आवाज़ बदलाव
+adversarial,प्रतिकूल,विरोधी
+perturbation,विक्षोभ,हलचल
+FGSM,एफजीएसएम,तेज़ ग्रेडिएंट तरीका
+epsilon,एप्सिलन,बहुत छोटा
+SNR,सिग्नल-से-शोर अनुपात,संकेत-शोर अनुपात
+anti-spoofing,एंटी-स्पूफिंग,छल-विरोधी
+countermeasure,प्रतिउपाय,बचाव का तरीका
+EER,समान त्रुटि दर,बराबर गलती दर
+LFCC,रैखिक आवृत्ति सेप्स्ट्रल,रेखीय आवृत्ति लक्षण
+CQCC,स्थिर-Q सेप्स्ट्रल,स्थिर-Q लक्षण
+classifier,वर्गीकरणकर्ता,बाँटने वाला
+threshold,सीमा,हद
+false positive,गलत सकारात्मक,गलत हाँ
+false negative,गलत नकारात्मक,गलत ना
+precision,परिशुद्धता,सटिकता
+recall,पुनःस्मरण,याद करल
+F1 score,एफ1 स्कोर,एफ1 अंक
+confusion matrix,भ्रम मैट्रिक्स,उलझन तालिका
+ablation study,अपकर्षण अध्ययन,हटाकर पढ़ाई
+hyperparameter,हाइपरपैरामीटर,ऊपरी मान
+learning rate,सीखने की दर,सीखने की रफ्तार
+momentum,संवेग,ताकत
+regularization,नियमितीकरण,नियम लगाव
+overfitting,अतिसामंजस्य,ज़्यादा ढलाव
+underfitting,न्यूनसामंजस्य,कम ढलाव
+validation,सत्यापन,जाँच
+cross-validation,क्रॉस-वैलिडेशन,बारी-बारी जाँच
+convergence,अभिसरण,एक बिंदु पर आनाई
+divergence,अपसरण,दूर जानाई
+initialization,प्रारंभीकरण,शुरुआत करल
+random seed,यादृच्छिक बीज,अनियमित शुरुआत
+GPU,जीपीयू,ग्राफ़िक्स प्रोसेसर
+CPU,सीपीयू,मुख्य प्रोसेसर
+memory,स्मृति,याददाश्त
+computation,गणना,हिसाब
+inference,अनुमान,अंदाज़
+deployment,तैनाती,उपयोग में लगाव
+real-time,वास्तविक समय,असली समय
+latency,विलंब,देरी
+throughput,थ्रूपुट,काम की मात्रा
+benchmark,बेंचमार्क,तुलना मापदंड
+baseline,आधार रेखा,शुरुआती नतीजा
+state-of-the-art,अत्याधुनिक,सबसे नया
+evaluation,मूल्यांकन,जाँच
+metric,मापदंड,माप
+performance,प्रदर्शन,काम
+improvement,सुधार,बेहतरी
+comparison,तुलना,मिलान
+experiment,प्रयोग,परीक्षण
+result,परिणाम,नतीजा
+conclusion,निष्कर्ष,खुलासा
+limitation,सीमा,कमी
+future work,भविष्य कार्य,आगे के काम
+Bhojpuri,भोजपुरी,भोजपुरी
+dialect,बोली,बोली
+regional language,क्षेत्रीय भाषा,इलाके के बोली
+script,लिपि,अक्षर
+Devanagari,देवनागरी,देवनागरी
+romanization,रोमनाइज़ेशन,रोमन लिखाई
+transliteration,लिप्यंतरण,एक लिपि से दूसरे
+translation,अनुवाद,अनुवाद
+semantic,अर्थपूर्ण,मतलब वाला
+parallel corpus,समानांतर कोष,जोड़ी में लिखाई
+dictionary,शब्दकोश,शब्द-भंडार
+lecture,व्याख्यान,पढ़ाई-लिखाई
+professor,प्रोफेसर,गुरु
+student,छात्र,छात्र
+classroom,कक्षा,पाठशाला
+microphone,माइक्रोफोन,आवाज़ पकड़ने वाला
+recording,रिकॉर्डिंग,आवाज़ बंधाई
+background noise,पृष्ठभूमि शोर,पिछले के कोलाहल
+reverb,अनुध्वनि,गूँज
+denoising,शोर-निवारण,कोलाहल हटाव
+enhancement,संवर्धन,बेहतर करल
+preprocessing,पूर्व-प्रसंस्करण,पहिले तैयारी
+pipeline,पाइपलाइन,काम की कड़ी
+module,मॉड्यूल,हिस्सा
+framework,ढाँचा,तरीका
+library,पुस्तकालय,औज़ार
+PyTorch,पाईटॉर्च,PyTorch
+Whisper,विस्पर,Whisper
+Wav2Vec,वेव2वेक,Wav2Vec
+VITS,विट्स,VITS
+HiFi-GAN,हाईफाई-गैन,HiFi-GAN
+SpeechBrain,स्पीचब्रेन,SpeechBrain
+IndicTrans,इंडिकट्रांस,IndicTrans
+DTW,डीटीडब्ल्यू,DTW
+IPA,आईपीए,IPA
+GitHub,गिटहब,GitHub

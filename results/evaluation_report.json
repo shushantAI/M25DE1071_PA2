@@ -1,0 +1,34 @@
+{
+  "lid": {
+    "lid_f1": 0.926,
+    "n_switches": 1575
+  },
+  "mcd": {
+    "mcd_warped": 6.74,
+    "mcd_flat": 9.53,
+    "warped_passes": true
+  },
+  "antispoofing": {
+    "eer_percent": 0.0,
+    "passes": true
+  },
+  "adversarial": {
+    "minimum_valid_epsilon": {
+      "epsilon": 0.002212,
+      "snr_db": 40.7,
+      "pred": "HI",
+      "flipped": true,
+      "snr_ok": true,
+      "valid": true
+    }
+  },
+  "wer": {
+    "wer_english_percent": 11.9,
+    "wer_hindi_percent": 21.4,
+    "wer_english_target": 15.0,
+    "wer_hindi_target": 25.0,
+    "english_passes": true,
+    "hindi_passes": true,
+    "note": "Measured on English/Hindi segments of transcript_raw.txt against reference"
+  }
+}

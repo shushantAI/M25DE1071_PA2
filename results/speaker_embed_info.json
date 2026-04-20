@@ -1,0 +1,5 @@
+{
+  "embedding_dim": 192,
+  "voice_duration_sec": 60.0,
+  "mean_cosine_similarity": 0.98647479577498
+}

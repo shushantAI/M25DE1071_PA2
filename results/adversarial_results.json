@@ -1,0 +1,253 @@
+{
+  "hindi_start_sec": 5.12,
+  "minimum_valid_epsilon": {
+    "epsilon": 0.002212,
+    "snr_db": 40.7,
+    "pred": "HI",
+    "flipped": true,
+    "snr_ok": true,
+    "valid": true
+  },
+  "all_results": [
+    {
+      "epsilon": 1e-05,
+      "snr_db": 46.0,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": true,
+      "valid": false
+    },
+    {
+      "epsilon": 1.4e-05,
+      "snr_db": 44.5,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": true,
+      "valid": false
+    },
+    {
+      "epsilon": 1.9e-05,
+      "snr_db": 42.45,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": true,
+      "valid": false
+    },
+    {
+      "epsilon": 2.6e-05,
+      "snr_db": 39.63,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 3.6e-05,
+      "snr_db": 35.75,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 4.9e-05,
+      "snr_db": 30.42,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 6.7e-05,
+      "snr_db": 23.11,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 9.2e-05,
+      "snr_db": 15.0,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.000127,
+      "snr_db": 15.0,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.000174,
+      "snr_db": 15.0,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.00024,
+      "snr_db": 15.0,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.000329,
+      "snr_db": 15.0,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.000452,
+      "snr_db": 15.0,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.000621,
+      "snr_db": 15.0,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.000853,
+      "snr_db": 15.0,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.001172,
+      "snr_db": 15.0,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.00161,
+      "snr_db": 15.0,
+      "pred": "HI",
+      "flipped": false,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.002212,
+      "snr_db": 40.7,
+      "pred": "HI",
+      "flipped": true,
+      "snr_ok": true,
+      "valid": true
+    },
+    {
+      "epsilon": 0.003039,
+      "snr_db": 40.7,
+      "pred": "HI",
+      "flipped": true,
+      "snr_ok": true,
+      "valid": true
+    },
+    {
+      "epsilon": 0.004175,
+      "snr_db": 15.0,
+      "pred": "EN",
+      "flipped": true,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.005736,
+      "snr_db": 15.0,
+      "pred": "EN",
+      "flipped": true,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.00788,
+      "snr_db": 15.0,
+      "pred": "EN",
+      "flipped": true,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.010826,
+      "snr_db": 15.0,
+      "pred": "EN",
+      "flipped": true,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.014874,
+      "snr_db": 15.0,
+      "pred": "EN",
+      "flipped": true,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.020434,
+      "snr_db": 15.0,
+      "pred": "EN",
+      "flipped": true,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.028072,
+      "snr_db": 15.0,
+      "pred": "EN",
+      "flipped": true,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.038566,
+      "snr_db": 15.0,
+      "pred": "EN",
+      "flipped": true,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.052983,
+      "snr_db": 15.0,
+      "pred": "EN",
+      "flipped": true,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.07279,
+      "snr_db": 15.0,
+      "pred": "EN",
+      "flipped": true,
+      "snr_ok": false,
+      "valid": false
+    },
+    {
+      "epsilon": 0.1,
+      "snr_db": 15.0,
+      "pred": "EN",
+      "flipped": true,
+      "snr_ok": false,
+      "valid": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+# M25DE1071 PA2 -- Requirements
+# Python version: 3.10 (required -- Coqui TTS does not support Python 3.12)
+# Install: pip install -r requirements.txt
+
+# Deep Learning
+torch>=2.1.0
+torchaudio>=2.1.0
+transformers>=4.38.0
+accelerate>=0.27.0
+
+# Speech Models
+speechbrain>=1.0.0
+openai-whisper>=20231117
+
+# TTS (requires Python 3.10)
+TTS>=0.22.0
+
+# Audio Processing
+librosa>=0.10.1
+soundfile>=0.12.1
+pyworld>=0.3.4
+dtw-python>=1.3.0
+deepfilternet>=0.5.6
+pydub>=0.25.1
+gtts>=2.5.0
+
+# Signal Processing
+numpy>=1.24.0
+scipy>=1.11.0
+
+# ML Utilities
+scikit-learn>=1.3.0
+jiwer>=3.0.3
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# Data & Config
+pandas>=2.0.0
+pyyaml>=6.0.1
+tqdm>=4.66.0
+
+# G2P
+eng-to-ipa>=0.0.2
+indic-transliteration>=2.3.57
+
+# System
+ffmpeg-python>=0.2.0
+yt-dlp>=2024.1.0

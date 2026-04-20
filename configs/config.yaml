@@ -1,0 +1,61 @@
+project:
+  name: "CSL7770-PA2-M25DE1071"
+  author: "Shushant Kumar Tiwari"
+  roll_no: "M25DE1071"
+  python_version: "3.10"
+  target_lrl: "Bhojpuri"
+  lecture_source: "https://youtu.be/ZPUtA3W-7_I"
+  lecture_segment: "2h20m00s to 2h30m00s"
+
+paths:
+  raw_lecture: "data/raw/M25DE1071_LectureModi.mp4"
+  voice_ref_raw: "data/raw/Q3_Dataset_Audio.mp4"
+  original_segment: "data/processed/original_segment.wav"
+  student_voice_ref: "data/processed/student_voice_ref.wav"
+  bhojpuri_corpus: "data/corpus/bhojpuri_technical_corpus.csv"
+  syllabus_terms: "assets/syllabus_terms.txt"
+  results_dir: "results/"
+  checkpoints_dir: "checkpoints/"
+
+audio:
+  sampling_rate: 16000
+  tts_sampling_rate: 22050
+  lecture_segment_duration: 600
+  voice_ref_duration: 60
+  segment_start_sec: 0
+
+lid_config:
+  backbone: "facebook/wav2vec2-base"
+  hop_ms: 20
+  ctx_frames: 32
+  hidden_units: 256
+  rnn_layers: 2
+  n_classes: 2
+  num_epochs: 30
+  learning_rate: 1.0e-4
+  batch_size: 16
+
+asr_config:
+  whisper_size: "medium"
+  beam_width: 5
+  term_bias: 3.0
+  lm_order: 2
+
+embedding_config:
+  ecapa_source: "speechbrain/spkrec-ecapa-voxceleb"
+  embed_dim: 192
+
+cm_config:
+  n_linear_filters: 70
+  n_cepstral_coeffs: 40
+  sr: 16000
+  num_epochs: 50
+  learning_rate: 1.0e-3
+  batch_size: 32
+
+fgsm_config:
+  clip_sec: 5
+  min_snr_db: 40.0
+  eps_low: 1.0e-5
+  eps_high: 1.0e-1
+  n_eps_steps: 30

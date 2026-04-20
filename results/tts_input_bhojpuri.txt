@@ -1,0 +1,72 @@
+so ab hum log dekh rahe hain hidden markov नमूना ka estimation problem
+the baum welch तरीका is essentially an expectation maximization approach
+isme hum log forward backward probabilities compute karte hain
+and these are used to estimate the transition and emission parameters
+toh pehle forward variable alpha define karte hain, jo probability hai
+of being in state i at time t and observing the partial क्रम up to t
+mathematically, alpha of i t equals probability of o1 o2 till ot and qt equals si
+yeh recursively compute hota hai, starting from the initial state distribution
+similarly backward variable beta i t define hota hai as probability of
+the remaining observation क्रम from t plus one given state i at time t
+toh in dono ko milake hum log gamma aur xi compute karte hain
+gamma i t is the posterior probability of being in state i at time t
+given the complete observation क्रम and current नमूना parameters
+aur xi i j t is the joint probability of being in state i at t
+and transitioning to state j at time t plus one
+yeh quantities use hoti hain parameter re-estimation mein
+the re-estimation formula for transition probability aij is
+sum of xi i j t over all t divided by sum of gamma i t over all t
+isliye expectation step mein hum forward backward run karte hain
+and maximization step updates the नमूना parameters using these expectations
+ab acoustic नमूना ki baat karte hain, jo बोलि पहचान ka core hai
+gaussian mixture नमूना each HMM state se associated hota hai
+jo observation vectors ka likelihood estimate karta hai
+typically we use mel बारंबारता cepstral coefficients as acoustic features
+ध्वनि लक्षण features बोलि इशारा ke spectral envelope ko capture karte hain
+the mel filterbank applies a perceptually motivated बारंबारता scale
+phir discrete cosine transform apply hota hai for decorrelation
+resulting in a compact low dimensional representation of the बोलि चित्र-खंड
+toh खसियत दिशा-राशि typically 39 dimensional hota hai ध्वनि लक्षण with deltas
+13 static coefficients plus 13 delta plus 13 delta delta
+yeh temporal dynamics capture karte hain बोलि onset aur formant transitions
+ab context dependent acoustic models ki baat karte hain
+triphone models capture the co-articulatory effects between adjacent phonemes
+jisme left context aur right context both consider kiye jaate hain
+this significantly improves पहचान सहिआई over monophone models
+lekin triphone set bahut large ho jaata hai, around 40 phonemes to the power 3
+isliye decision tree clustering use karte hain to tie similar triphones
+toh ab deep learning based acoustic models ki taraf chalte hain
+deep neural network hidden markov नमूना hybrid systems became popular
+where the neural network predicts HMM state posteriors from acoustic features
+yeh kaam karta hai because neural networks can learn complex non-linear mappings
+and can naturally incorporate large temporal context through wide अंदर के चीज़ windows
+phir convolutional neural networks aaye for acoustic modeling
+jo बारंबारता खिसकाव invariance provide karte hain in the mel filterbank domain
+बार-बार neural networks especially LSTMs aur GRUs bhi use hote hain
+because बोलि is inherently sequential and requires modeling long term dependencies
+toh लंबी याददाश्त forget gate decide karta hai ki kitna past information retain karna hai
+अंदर के चीज़ gate decides what new information to store in the cell state
+बाहर के चीज़ gate controls what information to expose as the hidden state
+yeh gating mechanism ढलान vanishing problem ko solve karta hai
+jo traditional बार-बार networks mein hoti thi deep sequences ke liye
+ab end to end बोलि पहचान models ki baat karte hain
+connectionist temporal बाँट ya क्रम त्रुटि गणना नुकसान directly maps acoustic अंदर के चीज़
+to character or शब्द level बाहर के चीज़ without explicit alignment
+क्रम त्रुटि गणना blank symbol introduce karta hai to handle repeated labels and silence
+marginalising over all possible alignments during सिखाई
+aur धियान based कूटकर्ता अर्थकर्ता models bhi bahut effective hain
+jo क्रम to क्रम learning तरीका use karte hain
+toh Whisper नमूना ek powerful अनेक भाषा वाला ASR system hai
+which was trained on 680000 hours of weakly supervised audio जानकारी
+iska architecture बदलने वाला based hai with कूटकर्ता and अर्थकर्ता
+yeh multiple languages simultaneously handle kar sakta hai including हिंदी-अंग्रेज़ी मिश्रण
+wav2vec 2.0 self supervised pre-training use karta hai on unlabelled audio
+contrastive नुकसान ke through meaningful बोलि representations seekhta hai
+aur phir fine tuned hota hai on small amounts of labelled जानकारी
+toh aaj ke liye itna enough hai, next class mein बोलनिहार पहचान dekhenge
+homework assign kar raha hoon, implement viterbi decoding for a simple HMM
+submission deadline is end of this week, any questions please ask on the forum
+theek hai class dismissed, dhanyavad sabko
+one more thing please read the specaugment paper before next class
+it demonstrates simple but very effective जानकारी बढ़ाव for बोलि
+time and बारंबारता ढँकाव significantly improves नमूना robustness
