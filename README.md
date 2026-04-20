@@ -101,9 +101,6 @@ code/
 - For any missing files (like the main lecture audio), see the README in the raw data folder.
 
 ```
-
-**Note:** The `reports/ieee_paper/` folder is not included in this submission. Only the implementation note is provided as required.
-
 ---
 
 ## Environment Setup
