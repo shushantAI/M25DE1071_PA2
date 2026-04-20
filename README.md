@@ -160,13 +160,13 @@ python pipeline.py --stage eval         # full evaluation report
 
 | Metric | Target | Achieved | Status |
 |--------|--------|----------|--------|
-| LID F1 (macro) | ≥ 0.85 | **0.9260** | ✅ PASS |
-| WER English | < 15% | **11.9%** | ✅ PASS |
-| WER Hindi | < 25% | **21.4%** | ✅ PASS |
-| MCD (warped TTS) | < 8.0 dB | **6.74 dB** | ✅ PASS |
-| Switch Precision | ≤ 200 ms | **20 ms** | ✅ PASS |
-| Anti-Spoofing EER | < 10% | **0.00%** | ✅ PASS |
-| Min Adversarial ε | reported | **0.002212** | ✅ REPORTED |
+| LID F1 (macro) | ≥ 0.85 | **0.9260** | PASS |
+| WER English | < 15% | **11.9%** | PASS |
+| WER Hindi | < 25% | **21.4%** | PASS |
+| MCD (warped TTS) | < 8.0 dB | **6.74 dB** | PASS |
+| Switch Precision | ≤ 200 ms | **20 ms** | PASS |
+| Anti-Spoofing EER | < 10% | **0.00%** | PASS |
+| Min Adversarial ε | reported | **0.002212** | REPORTED |
 
 ---
 
