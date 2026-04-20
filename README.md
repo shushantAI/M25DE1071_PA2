@@ -1,4 +1,4 @@
-# CSL-7770 Speech Understanding — PA2 (M25DE1071)
+# CSL-7770 Speech Understanding
 
 **Name:** Shushant Kumar Tiwari  
 **Roll No:** M25DE1071  
@@ -15,7 +15,7 @@ This project is my submission for Assignment 2. The goal is to process a code-sw
 
 ---
 
-## Directory Structure (key files)
+## Directory Structure
 
 ```
 code/
@@ -145,7 +145,7 @@ python pipeline.py --stage eval         # full evaluation report
 
 ---
 
-## Audio Manifest (Assignment Requirement)
+## Audio Manifest
 
 | File | Location | Duration | Sample Rate |
 |------|----------|----------|-------------|
