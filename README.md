@@ -96,7 +96,6 @@ code/
 
 ## Notes
 
-- All code is written and tested by me. No AI-generated code is used.
 - If you have issues with TTS, make sure you are using Python 3.10 and have all dependencies installed.
 - For any missing files (like the main lecture audio), see the README in the raw data folder.
 
